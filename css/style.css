@@ -91,4 +91,42 @@ body {
 	color: #2f1059;
 }
 
+/*Стизизация формы и фона*/
 
+.background-form {
+	background: url(../img/cloud.png) no-repeat 50% 35px,
+				url(../img/backgroundjpg.jpg) no-repeat;
+	background-size: 68%, cover;
+	height: 630px;
+	padding: 64px 0 0 0;
+	background-color: #99c2d6;
+	position: relative;
+	
+}
+
+.background-form h1 {
+	font-size: 43px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #2f1059;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 43px;
+	margin: 0;
+}
+
+.background-form p {
+	font-size: 22px;
+	color: #2f1059;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 28px;
+	margin: 10px 0 17px 0;
+}
+
+.image-form {
+	position: absolute;
+	bottom: -100px;
+	left: 50%;
+	margin-left: -29%;
+}
