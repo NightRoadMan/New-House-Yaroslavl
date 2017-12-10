@@ -311,3 +311,105 @@ strong {
 .icon-ball:nth-child(7) {
 	margin-top: 120px;
 }
+
+/*Секция: финиш строительства*/
+
+.date-of-finish {
+	background: url(../img/background-violet.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 27px 20px 100px 20px;
+}
+
+.thump-up {
+	position: absolute;
+	bottom: -38px;
+	left: 50%;
+	margin-left: -71px;
+}
+
+.date-of-finish h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.date-of-finish p {
+	font-size: 20px;
+	font-weight: lighter;
+	color: #fff;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: center;
+}
+
+/*Стилизация "Идеальное распложение" с фото*/
+
+.ideal-position h2 {
+	font-size: 37px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 44px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.ideal-desription {
+	font-size: 20px;	
+	color: #000;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 44px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.image-shadow {
+	filter: drop-shadow(0px 0px 12px #b4b4b4) 
+}
+
+.main-descr-image {
+	font-size: 21px;
+	color: #000;
+	font-weight: bold;
+	line-height: 23px;
+	padding: 0;
+	margin: 25px 0 0 0;
+	text-align: center;
+}
+
+.low-descr-image {
+	font-size: 15px;
+	color: #000;
+	font-weight: lighter;
+	line-height: 23px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.flex-one-card-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.flex-image-eco {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	margin-top: 65px;
+}
+
+.flex-image-eco div:nth-of-type(2) {
+	margin-top: 30px;
+
+}
