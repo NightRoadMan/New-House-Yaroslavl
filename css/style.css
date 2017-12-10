@@ -247,3 +247,67 @@ strong {
 	color: #9c95a5;
 	top: 16px;
 }
+
+/*Стилизация набора шаров. Секция 2*/
+
+.balls {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	padding: 80px 0 25px 0;
+}
+
+.icon-ball {
+	width: 160px;
+	height: 150px;
+	background: url(../img/ball.svg) no-repeat;	
+	display: flex;
+	display: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.icon-ball  p {
+	font-size: 17px;
+	line-height: 20px;
+	width: 155px;
+	text-align: center;
+	margin: 55px 0 0 10px;
+	padding: 0;
+}
+
+.icon-ball:last-child p {
+	font-size: 15px;
+	margin-top: 45px;
+}
+
+.icon-ball:nth-child(4) p {
+	margin-top: 50px;
+}
+
+.icon-ball:nth-last-child(2) p {
+	margin-top: 48px;
+}
+
+.icon-ball:nth-last-child(3) p {
+	margin-top: 48px;
+}
+
+/*Позиционируем шары*/
+
+.icon-ball:nth-child(2) {
+	margin-top: 120px;
+}
+
+.icon-ball:nth-child(3) {
+	margin-top: 54px;
+}
+
+.icon-ball:nth-child(6) {
+	margin-top: 54px;
+}
+
+.icon-ball:nth-child(7) {
+	margin-top: 120px;
+}
