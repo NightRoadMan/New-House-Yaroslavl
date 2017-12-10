@@ -7,9 +7,39 @@ body {
 	box-sizing: border-box;
 }
 
+strong {
+	font-weight: bold;
+}
+
 .container {
 	width: 1200px;
 	margin: 0px auto;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    color: #9c95a5;
+    font-size: 16px;
+}
+::-moz-placeholder {
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    color: #9c95a5;
+    font-size: 16px;
+}
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    color: #9c95a5;
+    font-size: 16px;
+
+}
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    color: #949494;
+    font-size: 16px;
 }
 
 /* Стилизация Header меню */
@@ -100,8 +130,6 @@ body {
 	height: 630px;
 	padding: 64px 0 0 0;
 	background-color: #99c2d6;
-	position: relative;
-	
 }
 
 .background-form h1 {
@@ -115,18 +143,107 @@ body {
 	margin: 0;
 }
 
-.background-form p {
+.background-text {
 	font-size: 22px;
 	color: #2f1059;
 	margin: 0 auto;
 	text-align: center;
 	line-height: 28px;
 	margin: 10px 0 17px 0;
+	font-weight: lighter;
+}
+
+.text-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin-top: 250px;
+	position: relative;
+	z-index: 2;
+}
+
+.form-input-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.text-form h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.number-of-flat {
+	font-size: 15px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 15px;
+	line-height: 15px;
+	margin-top: 50px;
+	color: #7925ec;
+}
+
+.number-of-flat span {
+	border: 1px solid #7925ec;
+	color: #7925ec;
+	font-weight: bold;
+	padding: 4px 7px;
+	border-radius: 4px;
+}
+
+.text-for-flat {
+	font-size: 17px;
+	line-height: 25px;
+	color: #fff;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 8px;
+	margin-bottom: 27px;
+}
+
+.form-input-flex input {
+	width: 200px;
+	height: 50px;
+	background-color: #e8def5;
+	border: 0;
+	border-radius: 6px;
+	margin-right: 8px;
+	padding: 0 5px 0 45px;
+}
+
+
+
+.form-button {
+	background-color: #d22828;
+	border: 0;
+	border-radius: 6px;
+	font-family: inherit;
+	font-weight: bold;
+	color: #fff;
+	padding: 12px 28px 12px 28px;
+}
+
+.for-form-position {
+	position: relative;
 }
 
 .image-form {
 	position: absolute;
-	bottom: -100px;
+	top: -290px;
 	left: 50%;
-	margin-left: -29%;
+	margin-left: -460px;
+	z-index: 0;
+}
+
+.absolute-icon {
+	position: absolute;
+	left: 25px;
+	color: #9c95a5;
+	top: 16px;
 }
