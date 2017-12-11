@@ -128,7 +128,7 @@ strong {
 
 .background-form {
 	background: url(../img/cloud.png) no-repeat 50% 35px,
-				url(../img/backgroundjpg.jpg) no-repeat center top;
+				url(../img/backgroundjpg.jpg) no-repeat;
 	background-size: auto, cover;
 	padding: 64px 20px 0 20px;
 	background-color: #99c2d6;
@@ -473,7 +473,6 @@ strong {
 }
 .table-for-row {
 	display: table-row;
-
 }
 
 .table-for-row p {
@@ -579,5 +578,48 @@ strong {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
+}
+
+/*Стилизация секции "Комлектация"*/
+
+.background-acrhitech {
+	background: url(../img/background-green-arch.jpg) no-repeat;
+	background-size: cover;
+	padding: 75px 40px 80px 40px;
+	color: #fff;
+}
+
+.for-green-row p {
+	border-color: rgba(255,255,255,0.2);
+}
+
+.for-green-row span {
+	margin-right: 6px;
+}
+
+.main-text-complect {
+	font-size: 37px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+.main-text-complect + p {
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 21px;
+	margin: 65px 0 0 0;
+	padding: 0 40px 0 40px;
+}
+
+.flex-table-green {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 40px 0 0 0;
+	padding: 0 40px 0 40px;
 }
