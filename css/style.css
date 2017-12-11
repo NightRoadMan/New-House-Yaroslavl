@@ -431,14 +431,14 @@ strong {
 	background: url(../img/background-house.jpg) no-repeat;
 	background-size: cover;
 	margin: 80px 0 0 0;
+	padding: 76px 0 80px 0;
 }
 
 .background-house-table h2 {
 	font-size: 37px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin: 0 auto;
-	padding: 76px 0 0 80px;
+	margin: 0 auto;	
 	text-align: center;
 }
 
@@ -492,4 +492,46 @@ strong {
 	margin: 70px 0 0 0;
 }
 
+/*Стилизация зеленной полосы*/
 
+.green-wave {
+	background: url(../img/background-green-box.png) no-repeat;
+	background-size: cover;
+	margin: -15px 0 0 0;
+	padding: 25px 30px 25px 30px; 
+}
+
+.flex-circle-and-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 375px;
+}
+
+.flex-circle-and-text:nth-child(2) {
+	margin: 0 40px 0 40px;
+	width: 310px;
+}
+
+
+.flex-circle-and-text p {
+	font-size: 17px;
+	font-weight: lighter;
+	color: #fff;
+	line-height: 20px;
+	text-align: left;
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+.flex-all-circle-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.bold {
+	font-weight: bold;
+}
