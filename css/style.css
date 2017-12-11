@@ -535,3 +535,49 @@ strong {
 .bold {
 	font-weight: bold;
 }
+
+/*Стилизация секции ПРОДУМАННАЯ КОНСТРУКЦИЯ ДОМА*/
+
+.new-construct {
+	padding: 80px 70px 70px 70px;
+}
+
+.main-text-for-roof {
+	font-size: 37px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.text-for-mini-decrip {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0 0 0;
+}
+
+.text-for-mini-decrip p {
+	width: 300px;
+	font-size: 15px;
+	font-weight: lighter;
+	text-align: justify;
+	padding: 0;
+	margin: 28px 0 0 0;
+	line-height: 22px;
+}
+
+.text-for-mini-decrip h4 {
+	font-size: 22px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 23px 0;
+}
+
+.flex-for-full-mini-descrip {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
