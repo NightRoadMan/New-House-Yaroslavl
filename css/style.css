@@ -46,18 +46,28 @@ strong {
 
 /* Стилизация Header меню */
 .main-menu {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	        align-items: center;
 	padding: 16px 0 16px 30px;
 }
 
 .menu-list {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	        align-items: center;
 	list-style: none;
 	padding: 0;
 	margin: 0;	
@@ -74,10 +84,15 @@ strong {
 }
 
 .call-to-us {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	        align-items: center;
 	font-weight: bold;
 	color: #2f1059;	
 }
@@ -85,7 +100,7 @@ strong {
 .call-to-us p {	
 	font-size: 21px;
 	padding: 0;
-	margin: 0;
+	margin: 0 12px 0 0;
 	margin-bottom: 10px;
 	text-align: center;
 	word-wrap: normal;
@@ -156,9 +171,13 @@ strong {
 }
 
 .text-form {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	        justify-content: center;
 	align-content: center;
 	margin-top: 250px;
 	position: relative;
@@ -166,9 +185,13 @@ strong {
 }
 
 .form-input-flex {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	        justify-content: center;
 	align-content: center;
 }
 
@@ -263,9 +286,13 @@ strong {
 /*Стилизация набора шаров. Секция 2*/
 
 .balls {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
 	align-content: center;
 	padding: 80px 0 25px 0;
 }
@@ -274,9 +301,11 @@ strong {
 	width: 160px;
 	height: 150px;
 	background: url(../img/ball.svg) no-repeat;	
+	display: -webkit-box;	
 	display: flex;
 	display: row;
-	justify-content: center;
+	-webkit-box-pack: center;
+	        justify-content: center;
 	align-content: center;
 }
 
@@ -383,7 +412,8 @@ strong {
 }
 
 .image-shadow {
-	filter: drop-shadow(0px 0px 12px #b4b4b4) 
+	-webkit-filter: drop-shadow(0px 0px 12px #b4b4b4);
+	        filter: drop-shadow(0px 0px 12px #b4b4b4) 
 }
 
 .main-descr-image {
@@ -407,16 +437,24 @@ strong {
 }
 
 .flex-one-card-image {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	        justify-content: center;
 	align-content: center;
 }
 
 .flex-image-eco {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
 	align-content: center;
 	margin-top: 65px;
 }
@@ -484,10 +522,15 @@ strong {
 }
 
 .flex-table {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	        align-items: flex-start;
 	margin: 70px 0 0 0;
 }
 
@@ -501,10 +544,15 @@ strong {
 }
 
 .flex-circle-and-text {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	        align-items: center;
 	width: 375px;
 }
 
@@ -525,10 +573,15 @@ strong {
 }
 
 .flex-all-circle-text {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	        align-items: center;
 }
 
 .bold {
@@ -550,10 +603,15 @@ strong {
 }
 
 .text-for-mini-decrip {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	        align-items: center;
 	margin: 50px 0 0 0;
 }
 
@@ -575,10 +633,15 @@ strong {
 }
 
 .flex-for-full-mini-descrip {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	        align-items: flex-start;
 }
 
 /*Стилизация секции "Комлектация"*/
@@ -616,10 +679,122 @@ strong {
 }
 
 .flex-table-green {
+	display: -webkit-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	        align-items: flex-start;
 	margin: 40px 0 0 0;
 	padding: 0 40px 0 40px;
+}
+
+/*Стилизация секции с дипломом*/
+.diploma {
+	background: url(../img/background-diploma.jpg) no-repeat;
+	background-size: cover;
+	padding: 86px 30px 75px 30px;
+}
+.diploma h2 {
+	font-size: 37px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 44px;
+	text-align: center;
+}
+
+.diploma p {
+	font-size: 21px;
+	font-weight: lighter;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 44px;
+	text-align: center;
+}
+
+.flex-image-diploma {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	        align-items: flex-start;
+	margin: 60px 70px 0 70px;
+}
+
+.flex-image-diploma img {
+	-webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+	        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3)) 
+}
+
+/*Cтилизация подвала*/
+
+.main-footer {
+	background-color: #080808;
+	padding: 24px 20px 24px 20px;
+	color: #fff;
+}
+
+.copyright {
+	width: 220px;
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.copyright span {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.adress {
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 14px;
+	padding: 0;
+	margin: 0;
+}
+
+.margin-for-adress {
+	margin: 0 0 8px 0;
+}
+
+.fa-map-marker {
+	margin-right: 8px;
+}
+
+.margin-location {
+	margin-left: -16px;
+}
+.call-footer {
+	color: #fff;
+}
+
+.call-footer a {
+	color: #fff;
+	border-color: #fff;
+}
+
+.call-footer a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.flex-footer-info {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	        align-items: center;
+	padding: 0 0 0 30px;
 }
