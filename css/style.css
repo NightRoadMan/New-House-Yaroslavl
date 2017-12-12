@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #fff;
+	min-width: 1240px;
 }
 * {
 	box-sizing: border-box;
@@ -294,7 +295,7 @@ strong {
 	-webkit-box-pack: justify;
 	        justify-content: space-between;
 	align-content: center;
-	padding: 80px 0 25px 0;
+	padding: 80px 20px 25px 20px;
 }
 
 .icon-ball {
@@ -323,7 +324,7 @@ strong {
 	margin-top: 45px;
 }
 
-.icon-ball:nth-child(4) p {
+.icon-ball:nth-child(3) p {
 	margin-top: 50px;
 }
 
@@ -337,19 +338,19 @@ strong {
 
 /*Позиционируем шары*/
 
-.icon-ball:nth-child(2) {
+.icon-ball:nth-child(1) {
 	margin-top: 120px;
 }
 
-.icon-ball:nth-child(3) {
+.icon-ball:nth-child(2) {
+	margin-top: 54px;
+}
+
+.icon-ball:nth-child(5) {
 	margin-top: 54px;
 }
 
 .icon-ball:nth-child(6) {
-	margin-top: 54px;
-}
-
-.icon-ball:nth-child(7) {
 	margin-top: 120px;
 }
 
@@ -469,7 +470,7 @@ strong {
 	background: url(../img/background-house.jpg) no-repeat;
 	background-size: cover;
 	margin: 80px 0 0 0;
-	padding: 76px 0 80px 0;
+	padding: 76px 40px 80px 40px;
 }
 
 .background-house-table h2 {
@@ -484,7 +485,7 @@ strong {
 
 .table-main {
 	display: table;
-	margin: 0 0 0 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -540,7 +541,7 @@ strong {
 	background: url(../img/background-green-box.png) no-repeat;
 	background-size: cover;
 	margin: -15px 0 0 0;
-	padding: 25px 30px 25px 30px; 
+	padding: 25px 0 25px 0; 
 }
 
 .flex-circle-and-text {
@@ -560,7 +561,6 @@ strong {
 	margin: 0 40px 0 40px;
 	width: 310px;
 }
-
 
 .flex-circle-and-text p {
 	font-size: 17px;
@@ -649,7 +649,7 @@ strong {
 .background-acrhitech {
 	background: url(../img/background-green-arch.jpg) no-repeat;
 	background-size: cover;
-	padding: 75px 40px 80px 40px;
+	padding: 75px 0 80px 0;
 	color: #fff;
 }
 
@@ -688,15 +688,14 @@ strong {
 	        justify-content: space-between;
 	-webkit-box-align: start;
 	        align-items: flex-start;
-	margin: 40px 0 0 0;
-	padding: 0 40px 0 40px;
+	margin: 40px 0 0 0;	
 }
 
 /*Стилизация секции с дипломом*/
 .diploma {
 	background: url(../img/background-diploma.jpg) no-repeat;
 	background-size: cover;
-	padding: 86px 30px 75px 30px;
+	padding: 86px 0 75px 0;
 }
 .diploma h2 {
 	font-size: 37px;
